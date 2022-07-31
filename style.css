@@ -1,0 +1,50 @@
+.banner {
+    border: 1px solid red;
+    width: 768px;
+    margin: auto;
+    height: 400px;
+    background-image: url(images/pic-2.png);
+    background-position-y: -48px;
+    background-position-x: 294px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+nav {
+    border: 1px solid red;
+}
+
+nav .logo {
+    width: 60px;
+    border: 1px solid red;
+}
+nav .nav_links {
+    border: 1px solid red;
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    height: 60px;
+}
+nav .nav_links li {
+    display: inline-block;
+    list-style-type: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 20px;
+    display: inline-block;
+    padding: 11x;
+}
+nav .nav_links li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 20px;
+    display: inline-block;
+    padding: 11x;
+    font-weight: bold;
+    color: black;
+}
+nav .nav_links li a:hover {
+    color: orange;
+}

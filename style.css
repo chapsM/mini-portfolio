@@ -103,3 +103,25 @@ nav .nav_links li a:hover {
     height: 300px;
     margin: -7px;
 }
+.count {
+    border: 1px solid;
+}
+.count .body {
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 25px;
+    background-color: rgb(197, 185, 185);
+    margin: 0px 10px;
+    font-family: sans-serif;
+}
+.count .body h4 {
+    background: #0C33CF;
+    background: linear-gradient(to right, #0C33CF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 52px;
+    margin: 0;
+    
+
+}

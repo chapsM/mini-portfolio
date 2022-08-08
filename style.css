@@ -308,6 +308,7 @@ footer .logo {
     width: 160px;
     display: block;
     margin: auto;
+    margin-bottom: 25px;
 }
 footer ul {
     display: inline-block;
@@ -325,5 +326,8 @@ footer ul li a {
     text-transform: capitalize;
     display: inline-block;
     margin: 10px;
+}
+footer ul li a:hover {
+    color: orange;
 }
 /* footer part done  */

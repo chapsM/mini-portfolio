@@ -133,7 +133,7 @@ nav .nav_links li a:hover {
     margin: auto;
     width: 876px;
     margin-top: 100px;
-    margin-bottom: 45%;
+    margin-bottom: 35%;
 }
 .below_content .below_left img {
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
@@ -175,12 +175,9 @@ nav .nav_links li a:hover {
 /* bellow content done  */
 
 .service {
-/* border: 1px solid red; */
 width: 876px;
 margin: auto;
-/* height: 400px; */
-padding-bottom: 30px;
-margin-top: 40%;
+padding-bottom: 0px;
 }
 .service .content {
     height: 500px;
@@ -223,12 +220,16 @@ margin-top: 40%;
 }
 .service .content .body img {
     width: 100px;
+    height: 100px;
 }
 .service .content .body h3 {
     font-size: 22px;
 }
 .service .content .body p {
     font-size: 16px;
+    height: 158px;
+    width: 245px;
+    line-height: 2;
 }
 /* service part done */
 

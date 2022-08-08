@@ -169,6 +169,7 @@ padding-bottom: 30px;
     font-family: sans-serif;
     padding: 15px;
     box-sizing: border-box;
+    background-color: rgb(231 228 228);
 }
 .service .content .body img {
     width: 50px;
@@ -178,4 +179,34 @@ padding-bottom: 30px;
 }
 .service .content .body p {
     font-size: 16px;
+}
+/* service part done */
+
+footer {
+    background-color: rgb(53, 49, 49);
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 0px;
+}
+footer .logo {
+    width: 160px;
+    display: block;
+    margin: auto;
+}
+footer ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 10px;
 }

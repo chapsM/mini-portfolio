@@ -172,26 +172,7 @@ nav .nav_links li a:hover {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* bellow content done  */
 
 .service {
 /* border: 1px solid red; */
@@ -250,6 +231,71 @@ margin-top: 40%;
     font-size: 16px;
 }
 /* service part done */
+
+.blog {
+    width: 876px;
+    margin: auto;
+}
+.blog .blog_top {
+    margin-bottom: 8%;
+}
+.blog .blog_top h4 {
+    text-transform: uppercase;
+    font-weight: 550;
+    color: #7D8386;
+}
+.blog .blog_top h1 {
+    font-size: 35px;
+    width: 290px;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.blog .blog_bottom {
+    border: 1px solid #cdc0b0;
+    background-color: antiquewhite;
+    margin-bottom: 15%;
+}
+.blog .blog_bottom .blog_parts {
+    display: inline-block;
+}
+.blog .blog_bottom img {
+    height: 185px;
+    width: 100%;
+}
+.blog .blog_bottom .blog_parts {
+    display: inline-block;
+    width: 32%;
+    margin: 0px 2.5px;
+    font-family: sans-serif;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgb(201 203 177 / 12%);
+}
+.blog .blog_bottom .blog_parts h1 {
+    font-size: 20px;
+    font-family: system-ui;
+}
+.blog .blog_bottom .blog_parts p {
+    color: #A8A8A8;
+    font-size: 18px;
+    font-family: ui-sans-serif;
+}
+/* blog part done  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: rgb(53, 49, 49);
